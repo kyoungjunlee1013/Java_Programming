@@ -11,3 +11,4 @@ public class ChildExample {
         child.method3();
     }
 }
+// child == parent 즉, child 객체이고, 따라서 child.method3()를 사용할 수 있는 것이다
