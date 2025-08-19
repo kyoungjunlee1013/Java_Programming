@@ -1,4 +1,4 @@
-package Class17;
+package Class16;
 
 public class Car {
     private int speed;
