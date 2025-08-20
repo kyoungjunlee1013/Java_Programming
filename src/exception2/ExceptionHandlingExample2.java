@@ -1,4 +1,4 @@
-package execption2;
+package exception2;
 
 public class ExceptionHandlingExample2 {
     public static void printLength(String data){

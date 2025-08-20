@@ -1,4 +1,4 @@
-package execption3;
+package exception3;
 
 public class ExecptionHandlingExample {
 
