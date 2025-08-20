@@ -1,10 +1,8 @@
-package InstanceMemberClass2;
+package StaticMemberClass;
 
 public class AExample {
     public static void main(String[] args) {
-        A a = new A();
-
-        a.useB();
+        A.B b = new A.B();
 
     }
 }
