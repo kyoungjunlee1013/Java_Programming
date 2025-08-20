@@ -1,4 +1,4 @@
-package InstanceMemberClass;
+package InstanceMemberClass1;
 
 public class A {
     class B{}
