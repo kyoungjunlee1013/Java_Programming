@@ -1,4 +1,4 @@
-package main.java.resource1;
+package resource1;
 
 public class MyResource implements AutoCloseable {
     private String name;
