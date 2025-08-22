@@ -1,0 +1,15 @@
+package main.java.classexample.Class2;
+
+public class CarExample {
+    public static void main(String[] args) {
+        Car myCar = new Car();
+        System.out.println("제작회사: " + myCar.model);
+        System.out.println("모델명: " + myCar.model);
+        System.out.println("색상: " + myCar.color);
+        System.out.println("최고속력: " + myCar.maxSpeed);
+        System.out.println("현재속력: " + myCar.speed);
+        System.out.println();
+        myCar.speed = 60;
+        System.out.println("수정된 속도: " + myCar.speed);
+    }
+}
