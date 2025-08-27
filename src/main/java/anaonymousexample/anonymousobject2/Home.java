@@ -1,4 +1,4 @@
-package main.java.anaonymousexample.anonymousobject2;
+package anaonymousexample.anonymousobject2;
 
 public class Home {
     private RemoteControl rc = new RemoteControl(){

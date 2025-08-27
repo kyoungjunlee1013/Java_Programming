@@ -1,4 +1,4 @@
-package main.java.resource1;
+package resource1;
 
 public class TryWithResourceExample {
     public static void main(String[] args) {

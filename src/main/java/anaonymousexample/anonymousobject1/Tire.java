@@ -1,4 +1,4 @@
-package main.java.anaonymousexample.anonymousobject1;
+package anaonymousexample.anonymousobject1;
 
 public class Tire {
     public void roll(){
