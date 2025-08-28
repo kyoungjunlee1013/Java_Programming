@@ -16,6 +16,7 @@ public class WorkThread extends Thread{
             }else {
                 Thread.yield();
             }
+            //만약 yiled가 없었다면 sleep을 하는 동안에도 부적절한 실행이 계속됨.
         }
     }
 }
