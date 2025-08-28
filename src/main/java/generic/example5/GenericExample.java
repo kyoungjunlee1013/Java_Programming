@@ -15,5 +15,6 @@ public class GenericExample {
         Box<String> box2 = boxing("홍길동");
         String strValue = box2.get();
         System.out.println(strValue);
+
     }
 }
