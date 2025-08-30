@@ -1,11 +1,12 @@
 package collection.example8;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 
 public class HashtableExample {
     public static void main(String[] args) {
-        Map<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new Hashtable<>();
 
         Thread threadA = new Thread(){
             @Override
