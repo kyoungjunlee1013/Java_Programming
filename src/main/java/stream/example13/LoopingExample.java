@@ -8,7 +8,7 @@ public class LoopingExample {
         Arrays.stream(intArr)
                 .filter(a -> a%2==0)
                 .peek(n -> System.out.println(n));
-//peek도 forEach와 동일하게 루핑 함수이다(
+//peek도 forEach와 동일하게 루핑 함수이다. 하지만 peek는 위처럼 마무리 함수가 없을 경우에는 작동하지 못한다.
         int total = Arrays.stream(intArr)
                 .filter(a -> a%2 == 0)
                 .peek(n -> System.out.println(n))
