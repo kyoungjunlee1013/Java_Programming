@@ -10,7 +10,7 @@ public class ReadExample {
         try {
             Reader reader = null;
 
-            reader = new FileReader("C:Temp/test.txt");
+            reader = new FileReader("C:/Temp/test.txt");
             while (true) {
                 int data = reader.read();
                 if(data == -1) break;
